@@ -1,0 +1,39 @@
+shopping-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/               # Images, logos, etc.
+│   ├── components/           # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── ProductCard.jsx
+│   ├── pages/                # Route pages
+│   │   ├── Home.jsx
+│   │   ├── ProductDetails.jsx
+│   │   └── Cart.jsx
+│   ├── context/              # Context API for cart state
+│   │   └── CartContext.jsx
+│   ├── data/                 # Static or mock product data
+│   │   └── products.js
+│   ├── hooks/                # Custom hooks (optional)
+│   │   └── useCart.js
+│   ├── styles/               # CSS or SCSS files
+│   │   └── main.css
+│   ├── App.jsx               # Main app component
+│   ├── main.jsx              # Entry point (with ReactDOM)
+│   └── routes.jsx            # React Router config
+├── .gitignore
+├── package.json
+└── README.md
+
+
+/pages
+    -Home
+    -About
+    -Service
+    -Contact
+    -View
+/components
+    -Header
+    -Footer
+    -....Content page

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Dangrek&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes : light  --default;
+}
+
+.font-style {
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.bg-img {
+  background-image: url(https://scontent.fpnh18-1.fna.fbcdn.net/v/t1.15752-9/502407196_1046627023577136_5560749020733432998_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGo2SfUoAbjQDH6GXwIVzE_Vy2Vja71M-NXLZWNrvUz42RB1yXfUy7DFUxF4yTumXAbNpOCvU5pFho0ttx61b2j&_nc_ohc=KYWnI19z5nUQ7kNvwFAp47x&_nc_oc=AdlNIw3iTQahHYFEL1XZI9ljKijvNxPNWsDHMRLOfAnf4QB5bLC6EEtE_ktcU2rW6uE&_nc_zt=23&_nc_ht=scontent.fpnh18-1.fna&oh=03_Q7cD2QHESzGmEvz59FBXtIj668_wt_9IrBGZbn6fkJ4mFLTjZA&oe=68663BEC);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
