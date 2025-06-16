@@ -14,8 +14,6 @@ import ViewProduct from './pages/ViewProduct.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-    <About/>
   
   <BrowserRouter>
     <Routes>
@@ -24,6 +22,9 @@ createRoot(document.getElementById('root')).render(
             <Route path = '/about' element = {<About />} />
             <Route path = '/service' element = {<Service />} />
             <Route path = '/contact' element = {<Contact />} />
+            <Route path = '/view' element = {<ViewProduct />} />
+       
+            {/* BestDeal */}
             <Route path = '/view' element = {<ViewProduct />} />
        </Route>
 

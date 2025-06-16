@@ -13,3 +13,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.bg2-img {
+  background-image: url(https://www.shutterstock.com/image-photo/top-view-office-stuff-notepad-260nw-2013946412.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
