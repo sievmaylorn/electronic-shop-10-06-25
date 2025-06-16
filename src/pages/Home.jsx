@@ -8,6 +8,7 @@ import HeroTwo from '../components/HeroTwo'
 import BestDeal from '../components/BestDeal/BestDeal'
 import CashCard from '../components/BestDeal/CashCard'
 import TrandingProducts from '../components/BestDeal/TrandingProducts'
+import Footer from '../components/footer'
 // import Gadgets from '../components/BestDeal/Gadgets'
 function Home() {
   return (
@@ -26,7 +27,8 @@ function Home() {
        <CashCard/>
 
       <TrandingProducts/>
-       {/* <Gadgets/> */}
+       
+       <Footer/>
        
     </div>
   )

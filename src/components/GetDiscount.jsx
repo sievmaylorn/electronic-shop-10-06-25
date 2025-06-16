@@ -25,7 +25,7 @@ function GetDiscount() {
                         <p className='text-xl mt-3'>Explore Our Furiture & Home Furnishing Range</p>      
                     </div>
                     <div className='w-full h-[200px] overflow-hidden'>
-                        <img src="https://www.carlington.in/cdn/shop/files/Carlington_elite_analog_ladies_watch_CT_2014_rosegold.jpg?v=1696691332" alt="No Image" className='w-full h-full object-cover bg-green-500 hover:scale-105 duration-100' />
+                        <img src="https://soyacincau.com/wp-content/uploads/2021/12/211210-msi-prestige-14-rose-pink-4.jpg" alt="No Image" className='w-full h-full object-cover bg-green-500 hover:scale-105 duration-100' />
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ function GetDiscount() {
                         <p className='text-xl mt-3 text-yellow-800'>Explore Our Furiture & Home Furnishing Range</p>      
                     </div>
                     <div className='w-full h-[200px] overflow-hidden'>
-                        <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25626687/DSC08433.jpg?quality=90&strip=all&crop=16.675%2C0%2C66.65%2C100&w=2400" alt="No Image" className='w-full h-full object-cover bg-green-500 hover:scale-105 duration-100'  />
+                        <img src="https://cdn.thewirecutter.com/wp-content/media/2024/06/android-phone-2048px-0967.jpg" alt="No Image" className='w-full h-full object-cover bg-green-500 hover:scale-105 duration-100'  />
                     </div>
                 </div>
 

@@ -15,7 +15,13 @@
 }
 
 .bg2-img {
-  background-image: url(https://www.shutterstock.com/image-photo/top-view-office-stuff-notepad-260nw-2013946412.jpg);
+  background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/03/Person-sitting-next-to-a-laptop-that-is-displaying-a-black-background.jpg?q=70&fit=contain&w=1200&h=628&dpr=1);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg3-image{
+  background: url(https://img.pikbest.com/wp/202346/pink-pastel-background-featuring-a-3d-rendered-laptop-computer_9633799.jpg!sw800);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
