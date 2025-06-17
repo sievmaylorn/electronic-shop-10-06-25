@@ -2,7 +2,7 @@ import React from 'react';
 
 function CashCard() {
   return (
-    <div  className="w-full overflow-hidden  bg-pink-400  py-5">
+    <div  className="w-full overflow-hidden  bg-pink-500  py-5">
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start lg:gap-10 ">
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col items-start text-left">
