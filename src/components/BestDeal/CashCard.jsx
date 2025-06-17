@@ -3,7 +3,7 @@ import React from 'react';
 function CashCard() {
   return (
     <div className="w-full overflow-hidden bg-pink-500 py-5">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start lg:gap-10">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
         
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col items-start text-left">
@@ -18,12 +18,12 @@ function CashCard() {
           </button>
         </div>
 
-        {/* Right Image - smaller on iPad */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+        {/* Right Image - only show on laptops (lg and up) */}
+        <div className="w-full md:w-1/2 hidden lg:flex justify-end">
           <img
             src="/Cashcard.png"
             alt="No-image"
-            className="hidden sm:block w-[180px] md:w-[360px] lg:w-[410px] h-auto object-contain"
+            className="w-[500px] h-auto object-contain"
           />
         </div>
       </div>
