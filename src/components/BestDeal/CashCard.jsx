@@ -13,17 +13,17 @@ function CashCard() {
           <p className="text-lg sm:text-xl md:text-2xl mt-4 text-white">
             on Shopcart.com
           </p>
-          <button className="mt-5 px-6 py-3 text-white text-lg md:text-2xl bg-pink-700 rounded-4xl hover:bg-pink-600 transition duration-300 ease-in-out">
+          <button className="mt-5 px-6 py-3 text-white text-lg md:text-2xl bg-pink-700 rounded-2xl hover:bg-pink-600 transition duration-300 ease-in-out">
             Learn More
           </button>
         </div>
 
-        {/* Right Image - smaller on iPad */}
+        {/* Right Image - same size for 800px to 1300px */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
           <img
             src="/Cashcard.png"
             alt="No-image"
-            className="hidden sm:block w-[180px] md:w-[360px] lg:w-[410px] h-auto object-contain"
+            className="hidden sm:block w-[300px] h-auto object-contain"
           />
         </div>
       </div>
