@@ -1,34 +1,29 @@
-import React from 'react'
-// import Cashcard from './components/BestDeal/Cashcard.png';
+import React from 'react';
+
 function CashCard() {
   return (
-    
-       <div className='w-full lg:h-[35vh] md:h-[100vh] bg-pink-300'>
-            <div className='container h-full px-4 lg:px-[128px] mx-auto
-                            flex items-center'>
-                 <div className='w-full md:w-[50%] lg:w-[45%]'>
-                      <h1 className='text-4xl md:text-6xl font-bold'>
-                          <span >Get 5% Cash back</span>
-                          
-                      </h1>
-                      <p className='text-xl md:text-2xl mt-4 text-white'>
-                            on Shopcart.com
-                      </p>
-                      <button className=' md:px-8 text-white py-3 px-5 bg-pink-700 rounded-4xl cursor-pointer mt-5 text-2xl hover:bg-pink-500 duration-400 ease-in-out '>
-                          Learn More
-                      </button>
-                  </div>   
+    <div className="w-full bg-pink-400 py-10">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-start gap-10">
+        {/* Left Content */}
+        <div className="w-full md:w-1/2 flex flex-col items-start text-left">
+          <h1 className="text-3xl lg:ms-15 md:ms-10 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+             Get 5% Cash back
+          </h1>
+          <p className="text-lg lg:ms-15 md:ms-10 sm:text-xl md:text-2xl mt-4 text-white">
+            on Shopcart.com
+          </p>
+          <button className="mt-5 lg:ms-15 md:ms-10 px-6 py-3 text-white text-lg md:text-2xl bg-pink-700 rounded-4xl hover:bg-pink-500 transition duration-300 ease-in-out">
+            Learn More
+          </button>
+        </div>
 
-                  <div className='w-full md:w-[60%] lg:w-[45%]'> 
-
-                    
-                   </div>               
-                  
-
-            </div>
-       </div>
-   
-  )
+        {/* Right Image / Placeholder */}
+        <div className="w-full md:w-1/2">
+          <img src="/Cashcard.png" alt="No-image" className="hidden md:block md:w-[100%] md:h-auto lg:w-[40vw] lg:h-[auto] object-contain" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default CashCard;

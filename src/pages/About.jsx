@@ -36,16 +36,20 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="w-full h-[85vh] bg-amber-500 pt-10 bg3-image">
-      <div className="w-full h-auto sm:h-[50vh] lg:h-[80vh]  px-4 sm:px-6 md:ms-20 pt-10">
+    <div className="w-full h-[85vh] bg-amber-500 pt-10 bg3-image overflow-x-hidden">
+      <div className="w-full h-auto sm:h-[45vh] lg:h-[80vh]  px-4 sm:px-6 md:ms-20 pt-10">
         <h1 className="font-bold text-3xl sm:text-4xl text-pink-500 underline">
-          About Us
+            ABOUT US
         </h1>
-        <p className="text-lg md:text-2xl md:w-[50vh] mt-5 text-white">
-          Lorem, ipsum dolor sit amet cons. Deleniti, esse illo distinctio, laborum ipsum
-          consequuntur labore cumque quia sequi voluptas velit eligendi sit, nihil ab architecto
-          culpa. Est ipsa ex quod aut cupiditate facere cumque aperiam neque fuga?
-        </p>
+        <div className="border border-white rounded-xl shadow-lg bg-pink-500 p-8 bg-opacity-10  w-full md:w-[60vh] mt-5 md:mt-7">
+  <p className="text-lg md:text-2xl text-white">
+      Lorem, ipsum dolor sit amet cons. Deleniti, esse illo distinctio, laborum ipsum
+      consequuntur labore cumque quia sequi voluptas velit eligendi sit, nihil ab architecto
+      culpa. Est ipsa ex quod aut cupiditate facere cumque aperiam neque fuga?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos nam obcaecati 
+  </p>
+</div>
+
       </div>
     </div>
   );

@@ -31,9 +31,9 @@ const Contact = () => {
 
       {/* Form Section */}
       <div className="w-full md:w-1/2">
-        <h1 className="text-3xl font-bold text-pink-600 mb-4">Contact Us</h1>
+        <h1 className="text-3xl font-bold text-pink-600 mb-4">CONTACT US</h1>
         <p className="text-gray-600 mb-6 text-15px">
-          Questions or support? Contact TechWave Electronics.
+          Questions or support? 
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

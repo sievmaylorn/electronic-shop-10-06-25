@@ -5,18 +5,18 @@ import { IoBagSharp } from "react-icons/io5";;
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-gray-700 px-6 py-10">
+    <footer className="bg-white text-gray-700 lg:ms-10 md:ms-5 px-6 py-10">
       <div className="max-w-7xl mx-auto flex flex-col gap-10">
         
         {/* Row 1: Logo + Description + Payments */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Shopcart Logo" className="w-18 h-15" />
-              <span className="text-2xl font-bold">Shopcart</span>
+              <img src="/logo.png" alt="KH-SHOP Logo" className="w-27 h-22" />
+              <span className="text-2xl font-bold">KH-SHOP</span>
               {/* <img src="/image.png" alt="No image" className="w-50 h-50" /> */}
             </div>
-            <p className="text-1xl">
+            <p className="text-xl">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
@@ -24,7 +24,7 @@ const Footer = () => {
               <h4 className="font-bold text-2xl mb-2">Accepted Payments</h4>
               <div className="flex flex-wrap gap-2">
                   <img src="https://help.zazzle.com/hc/article_attachments/360010513393" alt="No-Image"
-                      className="w-60 h-13"
+                      className="w-68 h-15"
                 />
                 {/* {[
                   "stripe",
@@ -114,7 +114,7 @@ const Footer = () => {
           {/* Help */}
           <div>
             <h4 className="font-semibold mb-4">Help</h4>
-            <ul className="space-y-1 text-sm">
+            <ul className=" space-y-1 text-sm  ">
               {[
                 "Shopcart Help",
                 "Returns",
@@ -137,23 +137,23 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-10">
           <div className="flex items-center gap-2">
             <IoBagSharp className="text-pink-500 w-5 h-5" />
-            <span>Become Seller</span>
+            <span className=" hover:text-pink-600 duration-150 ease-in-out">Become Seller</span>
           </div>
           <div className="flex items-center gap-2">
             <IoGift className="text-pink-500 w-5 h-5" />
-            <span>Gift Cards</span>
+            <span className=" hover:text-pink-600 duration-150 ease-in-out">Gift Cards</span>
           </div>
           <div className="flex items-center gap-2">
             <IoMdHelpCircleOutline className="text-pink-500 w-5 h-5" />
-            <span>Help Center</span>
+            <span className=" hover:text-pink-600 duration-150 ease-in-out">Help Center</span>
           </div>
         </div>
 
         {/* Text Links Section */}
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-center md:gap-6 mt-6 md:mt-0 text-center md:text-left">
-          <span>Terms of Service</span>
-          <span>Privacy & Policy</span>
-          <span>
+          <span className=" hover:text-pink-600 duration-150 ease-in-out">Terms of Service</span>
+          <span className=" hover:text-pink-600 duration-150 ease-in-out">Privacy & Policy</span>
+          <span >
             All Rights Reserved by Musemind{" "}
             <a href="#" className="text-pink-600 underline">ui/ux design</a> agency | 2022
           </span>

@@ -5,7 +5,7 @@ function HeroTwo() {
     <div>
           <div className='w-full h-[70vh] bg2-img'>
             <div className='container h-full px-4 lg:px-[128px] mx-auto flex items-center justify-end'>
-                 <div className='w-full md:w-[60-%] lg:w-[38%] bg-pink-500 p-8'>
+                 <div className='w-full md:w-[60-%] md:h-[30vh] lg:w-[50%] lg:h-[50vh] bg-pink-500 p-8'>
                       <h1 className='text-4xl text-white md:text-5xl font-bold'>
                           <span>Get 5% Cash back on $200 </span>
                          
