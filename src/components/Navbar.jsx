@@ -25,7 +25,7 @@ function Navbar() {
             <div className='w-[60px] h-[60px] '>
               <img src="logo.png" alt="" />
             </div>
-            <p className='text-3xl font-bold ms-1 md:text-xl'>KH-SHOP</p>
+            <p className='text-2xl font-bold ms-1 '>KH-SHOP</p>
           </div>
 
           {/* Menu */}
