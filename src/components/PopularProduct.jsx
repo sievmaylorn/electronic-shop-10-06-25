@@ -23,10 +23,10 @@ function PopularProduct() {
 
     return (
         <div className='w-full mt-10 lg:mt-24'>
-            <div className='container px-4 lg:px-[70px] mx-auto'>
-                <h1 className='text-3xl font-bold mb-5'>Today's Best Deals for you!</h1>
+            <div  data-aos="fade-up" className='container px-4 lg:px-[70px] mx-auto'>
+                <h1  className='text-3xl font-bold mb-5'>Today's Best Deals for you!</h1>
 
-                <div className='overflow-x-auto mb-5'>
+                <div  data-aos="fade-up" className='overflow-x-auto mb-5'>
                     <div className='flex flex-nowrap gap-5'>
                         {/* Product Cards */}
                         {!loading &&

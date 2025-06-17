@@ -3,7 +3,7 @@ import React from 'react';
 
 function TrendingProducts() {
   return (
-    <div className="w-full mt-4 lg:mt-24">
+    <div data-aos="fade-up" className="w-full mt-4 lg:mt-24">
       <div className="container px-4 lg:px-[50px] mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Trending Products For You!</h1>
 

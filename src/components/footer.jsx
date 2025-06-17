@@ -12,19 +12,26 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src="/logo.png" alt="KH-SHOP Logo" className="w-27 h-22" />
-              <span className="text-2xl font-bold">KH-SHOP</span>
+             <img
+                  src="/logo.png"
+                  alt="KH-SHOP Logo"
+                  className="w-[60px] h-[50px] md:w-[80px] md:h-[60px] 
+                  ml-10
+                  lg:w-[100px] lg:h-[80px]"
+                />
+
+              <span data-aos="fade-right" className="text-2xl font-bold ">KH-SHOP</span>
               {/* <img src="/image.png" alt="No image" className="w-50 h-50" /> */}
             </div>
-            <p className="text-xl">
+            <p  data-aos="fade-right" className="lg:text-2xl ms-10">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
             <div>
-              <h4 className="font-bold text-2xl mb-2">Accepted Payments</h4>
+              <h4 data-aos="fade-right" className="font-bold text-2xl ms-10 mb-2">Accepted Payments</h4>
               <div className="flex flex-wrap gap-2">
                   <img src="https://help.zazzle.com/hc/article_attachments/360010513393" alt="No-Image"
-                      className="w-68 h-15"
+                      className="w-68 h-15 ms-10"
                 />
                 {/* {[
                   "stripe",
@@ -49,7 +56,7 @@ const Footer = () => {
         </div>
 
         {/* Row 2: Department + About + Services + Help (2 columns on mobile) */}
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-4">
+        <div data-aos="fade-up"  className="grid ms-10 grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-4">
           {/* Department */}
           <div>
             <h4 className="font-bold mb-4">Department</h4>
@@ -76,7 +83,7 @@ const Footer = () => {
           </div>
 
           {/* About Us */}
-          <div>
+          <div data-aos="fade-up" >
             <h4 className="font-semibold mb-4">About Us</h4>
             <ul className="space-y-1 text-sm">
               {[
@@ -96,7 +103,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
+          <div data-aos="fade-up" >
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-1 text-sm">
               {[
@@ -112,7 +119,7 @@ const Footer = () => {
           </div>
 
           {/* Help */}
-          <div>
+          <div data-aos="fade-up" >
             <h4 className="font-semibold mb-4">Help</h4>
             <ul className=" space-y-1 text-sm  ">
               {[

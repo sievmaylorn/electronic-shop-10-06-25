@@ -3,7 +3,7 @@ import categories from '../data/categories';
 
 function ShopCategories() {
   return (
-    <div className='w-full mt-4 lg:mt-24 '>
+    <div  data-aos="fade-up" className='w-full mt-4 lg:mt-24 '>
       <div className='container px-4 lg:px-[70px] mx-auto'>
         <h1 className='text-3xl font-bold mb-5'>Shop Our Top Categories</h1>
         <div className='flex flex-wrap gap-2 justify-between'>

@@ -45,18 +45,20 @@ function BestDeal() {
         <div className="flex gap-3 mb-5 flex-wrap">
           <button
             onClick={() => setSelectedCategory(null)}
-            className={`border px-4 py-2 rounded-full ${
+            className={`border px-5 py-2 rounded-full ${
               selectedCategory === null ? 'bg-pink-600 text-white' : 'hover:bg-blue-100'
             } duration-300`}
           >
             All
           </button>
+         
+
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => handleCategoryClick(cat)}
               className={`border px-4 py-2 rounded-full ${
-                selectedCategory === cat ? 'bg-pink-600 text-white' : 'hover:bg-blue-100'
+                 selectedCategory === cat ? 'bg-pink-600 text-white' : 'hover:bg-blue-100'
               } duration-300`}
             >
               {cat}
@@ -82,9 +84,10 @@ function BestDeal() {
                       <p className="text-xl line-clamp-1 font-bold">{v.name}</p>
                       <p className="line-clamp-2 my-2 text-gray-600">{v.description}</p>
                       <p className="text-orange-600 text-xl">Rating: {v.rating}</p>
-                      <button className="border px-5 py-2 rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white duration-300 mt-3">
-                        Add Cart
+                      <button className="border px-3 py-1 md:px-4 md:py-2 lg:px-5 lg:py-2 rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white duration-300 ease-in-out mt-4">
+                           Add Cart
                       </button>
+
                     </div>
                     <div>
                       <p className="text-xl font-bold">${v.price}</p>
@@ -136,10 +139,13 @@ function BestDeal() {
                     <div>
                       <p className="text-xl line-clamp-1 font-bold">{v.name}</p>
                       <p className="line-clamp-2 my-2 text-gray-600">{v.description}</p>
-                      <p className="text-orange-600 text-xl">Rating: {v.rating}</p>
-                      <button className="border px-5 py-2 rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white duration-300 mt-3">
+                      <p className="text-orange-600 text-xl">Rating:{v.rating}</p>
+                     <button className="border px-3 py-1 md:px-4 md:py-2
+                                                 lg:px-5 lg:py-2 rounded-3xl cursor-pointer hover:bg-pink-600
+                                                  hover:text-white duration-300 ease-in-out mt-4">
                         Add Cart
-                      </button>
+                                                  </button>
+
                     </div>
                     <div>
                       <p className="text-xl font-bold">${v.price}</p>
@@ -167,9 +173,12 @@ function BestDeal() {
                                                         {v.description}
                                                  </p>
                                                  <p className='text-orange-600 text-xl'>Rating: {v.rating}</p>
-                                                <button className='border px-5 py-2 rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white duration-300 mt-3'>
+                                                <button className="border px-3 py-1 md:px-4 md:py-2
+                                                 lg:px-5 lg:py-2 rounded-3xl cursor-pointer hover:bg-pink-600
+                                                  hover:text-white duration-300 ease-in-out mt-4">
                                                     Add Cart
-                                                </button>
+                                                  </button>
+
                                             </div>
                                          <div>
                                          <p className='text-xl font-bold'>${v.price}</p>

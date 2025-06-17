@@ -26,7 +26,7 @@ function BestDealProduct() {
             <div className='container px-4 lg:px-[70px] mx-auto'>
                 <h1 className='text-3xl font-bold mb-5'>Weekly Popular Products</h1>
 
-                <div className='overflow-x-auto mb-5'>
+                <div  data-aos="fade-up" className='overflow-x-auto mb-5'>
                     <div className='flex flex-nowrap gap-5'>
                         {/* Product Cards */}
                         {!loading &&
@@ -45,10 +45,13 @@ function BestDealProduct() {
                                             <p className='line-clamp-2 my-2 text-gray-600'>
                                                 {v.description}
                                             </p>
-                                            <p className='text-orange-600 text-xl'>Rating: {v.rating}</p>
-                                            <button className='border px-5 py-2 rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white duration-300 mt-3'>
-                                                Add Cart
+                                            <p className='text-orange-500 text-xl'>Rating:{v.rating}</p>
+                                            <button className="border px-3 py-1 md:px-4 md:py-2 lg:px-5 lg:py-2
+                                                rounded-3xl cursor-pointer hover:bg-pink-600 hover:text-white
+                                                duration-300 ease-in-out mt-4">
+                                                    Add Cart
                                             </button>
+
                                         </div>
                                         <div>
                                             <p className='text-xl font-bold'>${v.price}</p>

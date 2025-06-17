@@ -6,8 +6,8 @@ function GetDiscount() {
         <div className='container px-4 lg:px-[70px] mx-auto'>
             <h1 className='text-3xl font-bold mb-5'>Get Up to 50% off</h1>
 
-             <div className='flex flex-wrap justify-between'>
-                <div className='my-3 sm:w-[48%] lg:w-[24%] bg-blue-200 rounded-xl overflow-hidden'>
+             <div  data-aos="fade-up" className='flex flex-wrap justify-between'>
+                <div  className='my-3 sm:w-[48%] lg:w-[24%] bg-blue-200 rounded-xl overflow-hidden'>
                     <div className='p-8'>
                         <p className='text-3xl font-bold mb-3'>Save</p>
                         <p className='text-5xl font-bold text-blue-400'><sup>$</sup>500.99</p>

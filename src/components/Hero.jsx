@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     
-       <div className='w-full h-[70vh] bg-img '>
+       <div className='w-full h-[75vh] bg-img '>
             <div className='container h-full px-4 lg:px-[128px] mx-auto
                             flex items-center'>
                  <div className='w-full md:w-[60-%] lg:w-[38%]'>

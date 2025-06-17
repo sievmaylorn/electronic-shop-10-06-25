@@ -2,8 +2,8 @@ import React from 'react';
 
 function CashCard() {
   return (
-    <div className="w-full bg-pink-400 py-10">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-start gap-10">
+    <div  className="w-full overflow-hidden  bg-pink-400  py-5">
+      <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start lg:gap-10 ">
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col items-start text-left">
           <h1 className="text-3xl lg:ms-15 md:ms-10 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
@@ -19,7 +19,7 @@ function CashCard() {
 
         {/* Right Image / Placeholder */}
         <div className="w-full md:w-1/2">
-          <img src="/Cashcard.png" alt="No-image" className="hidden md:block md:w-[100%] md:h-auto lg:w-[40vw] lg:h-[auto] object-contain" />
+          <img src="/Cashcard.png" alt="No-image" className="hidden md:block md:w-[100%] md:h-auto lg:w-[30vw] lg:h-[auto] object-contain" />
         </div>
       </div>
     </div>
