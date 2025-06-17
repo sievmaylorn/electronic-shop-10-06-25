@@ -4,6 +4,7 @@ function CashCard() {
   return (
     <div className="w-full overflow-hidden bg-pink-500 py-5">
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start lg:gap-10">
+        
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col items-start text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
@@ -17,12 +18,12 @@ function CashCard() {
           </button>
         </div>
 
-        {/* Right Image */}
-        <div className="w-full md:w-1/2 hidden sm:block">
+        {/* Right Image - smaller on iPad */}
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
           <img
             src="/Cashcard.png"
             alt="No-image"
-            className="w-full h-auto lg:w-[30vw] object-contain"
+            className="hidden sm:block w-[180px] md:w-[360px] lg:w-[410px] h-auto object-contain"
           />
         </div>
       </div>
